@@ -1,0 +1,5 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes">
+    <lightning:navigation aura:id="navService"/>
+    <lightning:button label="Force Navigate" onclick="{!c.forceNavigate}" />
+    <lightning:button label="Lightning Navigate" onclick="{!c.lightningNavigate}" />
+</aura:component>

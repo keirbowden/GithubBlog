@@ -1,0 +1,5 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,force:hasRecordId,lightning:actionOverride,lightning:isUrlAddressable">
+	<lightning:card iconName="standard:event" title="Override">
+	    <lightning:formattedText class="slds-p-left_small" value="This is the webinar override component."/>
+    </lightning:card>
+</aura:component>

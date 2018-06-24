@@ -1,0 +1,6 @@
+<aura:component controller="UtilityController" implements="force:appHostable,flexipage:availableForAllPageTypes">
+    <lightning:utilityBarAPI aura:id="utilitybar" />
+    <aura:attribute type="String" name="message" default="Calculating ..." />
+
+    <div class="slds-p-top_large slds-text-heading_medium">{!v.message}</div>
+</aura:component>
